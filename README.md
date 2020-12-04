@@ -3,6 +3,7 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 
 ## Table Of Contents
 * [Handy Code Snippets and Plugins](#handy-code-snippets-and-plugins)
+* [Action Scheduler](#action-scheduler)
 * [WooCommerce Code Snippets](#woocommerce-code-snippets)
 * [Gist links for WooCommerce](#gist-links-for-woocommerce)
 * [Search Plugins](#search-plugins)
@@ -11,6 +12,7 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [Performance](#performance)
 
 ## Handy Code Snippets and Plugins
+* [Product Reviews and Ratings for WooCommerce](https://wordpress.org/plugins/sparrow/) - Collect product reviews on autopilot and boost conversions & increase organic CTR with star ratings in Google.
 * [WC Map Guest Orders and Downloads](https://wordpress.org/plugins/wc-map-guest-orders-and-downloads/) - Maps WooCommerce guest orders and downloads to an account with the same e-mail on account creation or login.
 * [Quantity Before Add to Cart and Product Update](https://gist.github.com/lukecav/b31f856daaa8c726ea24472b5792166b) - Quantity Before Add to Cart and Product Update.
 * [How to Find Product by SKU in WooCommerce](https://www.skyverge.com/blog/find-product-sku-woocommerce/) - How to Find Product by SKU in WooCommerce.
@@ -19,7 +21,7 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [WooCommerce Customizer](https://wordpress.org/plugins/woocommerce-customizer/) - Customize WooCommerce without code! Easily change add to cart button text and more.
 * [WooCommerce Confirm Password](https://gist.github.com/neilgee/a352bd18a914f6abb450b6c70fd1641d#file-password-validation-php) - Check the password and confirm password fields match before allow checkout to proceed.
 * [Remove the password strength meter on the checkout page](https://gist.github.com/SiR-DanieL/c9714add5b279550cef05957bc4481a1#file-functions-php) - You can completely remove the strength meter and restore the checkout process as it was before.
-* [Disable Cart Fragments](https://wordpress.org/plugins/disable-cart-fragments-littlebizzy/) - Completely disables the AJAX cart fragments feature in WooCommerce for a huge boost in loading speed (redirect to cart page highly recommended).
+* [Disable Cart Fragments](https://www.littlebizzy.com/plugins) - Completely disables the AJAX cart fragments feature in WooCommerce for a huge boost in loading speed (redirect to cart page highly recommended).
 * [WooCommerce International SKU](https://github.com/pmgarman/wc-international-sku) - Add a secondary SKU to products that is used for orders shipping outside of the base country of WooCommerce (international orders).
 * [Woocommerce Global Cart](https://github.com/stephenafamo/woocommerce-global-cart) - This allows users to maintain a single shopping cart across all subsites in a multisite install.
 * [Custom code snippets and examples for SkyVerge-built WooCommerce extensions](https://github.com/skyverge/wc-plugins-snippets) - Welcome to the wc-plugins-snippets repository! This repository stores code snippets related to SkyVerge WooCommerce plugins to modify or add onto plugin behavior.
@@ -72,7 +74,6 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [WooCommerce Software License](https://woosoftwarelicense.com/) - WooCommerce Software License provides the ability to manage license keys, activation and maintenance via your store.
 * [WooCommerce Extended Coupon Features](https://wordpress.org/plugins/woocommerce-auto-added-coupons/) - Additional functionality for WooCommerce Coupons: Apply certain coupons automatically, allow applying coupons via an url, etc.
 * [WooCommerce Putler Connector](https://wordpress.org/plugins/woocommerce-putler-connector/) - Track WooCommerce transactions data with Putler. Insightful reporting that grows your business.
-* [Purchased Items Column for WooCommerce Orders](https://wordpress.org/plugins/purchased-items-column-woocommerce/) - Display a "Purchased Items" column on the WooCommerce orders page.
 * [Disable WooCommerce Reviews](https://wordpress.org/plugins/disable-woocommerce-reviews/) - Disable WooCommerce reviews on all products.
 * [WC Shipping Rates Importer](https://wordpress.org/plugins/wc-shipping-rates-importer/) - Export and import Woocommerce Shipping Rates.
 * [Printify for WooCommerce](https://wordpress.org/plugins/printify-for-woocommerce/) - Live shipping rates for Printify products.
@@ -205,15 +206,102 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [Premmerce Woocommerce Product Bundles](https://wordpress.org/plugins/premmerce-woocommerce-product-bundles/) -  Plugin create product bundles in WooCommerce.
 * [WC REST Payment](https://wordpress.org/plugins/wc-rest-payment/) -  WC REST Payment adds in the missing REST API endpoint for process payment in WooCommerce. 
 * [WooCommerce Square](https://wordpress.org/plugins/woocommerce-square/) -  Adds ability to sync inventory between WooCommerce and Square POS. In addition, you can also make purchases through the Square payment gateway.
+* [Shop as Client for WooCommerce](https://wordpress.org/plugins/shop-as-client/) -  Allows a WooCommerce Store Administrator or Shop Manager to use the frontend and assign a new order to a registered or new customer. Useful for phone or email orders.
+* [WooCommerce Custom Add To Cart Button](https://wordpress.org/plugins/woo-custom-add-to-cart-button/) - Change the 'Add to Cart' button text in WooCommerce, and optionally add a cart icon.
+* [WooCommerce Stripe fee in Report](https://wordpress.org/plugins/woo-stripe-fee-in-report/) - Shows Stripe fees in WooCommerce charts. Calculates a correct net total.
+* [Cart REST API for WooCommerce](https://wordpress.org/plugins/cart-rest-api-for-woocommerce/) - Provides additional REST-API endpoints for WooCommerce to enable the ability to add, view, update and delete items from the cart.
+* [WooCommerce Cart Product Title](https://github.com/jcasabona/woocommerce-product-cart-title) - This is a simple plugin for WooCommerce that will change the product title in the cart to help prevent cart abandonment.
+* [HubSpot WooCommerce Integration](https://wordpress.org/plugins/hubwoo-integration/) - A very powerful plugin to integrate your WooCommerce store with HubSpot seemlesly.
+* [Smart Related Products for Woocommerce](https://wordpress.org/plugins/smart-related-products-for-woocommerce/) - By defaualt Woocommerce displays related products by the category. Smart related products for Woocommerce can override this logic and show them by attributes.
+* [WooCommerce Cart Items Bulk Deletion](https://wordpress.org/plugins/woo-cart-items-bulk-deletion/) - This plugin allows you to delete all your cart items with on click.
+* [WooCommerce Global Price Options](https://wordpress.org/plugins/atr-woo-global-price-options/) - Add global price options by category to WooCommerce products. 
+* [Jet Integration for WooCommerce](https://wordpress.org/plugins/woo-jet-integration/) - JET Integration Plugin, a complete solution for integrating your online store with Jet.com.
+* [Negotiabl for WooCommerce](https://wordpress.org/plugins/negotiabl-woocommerce-extension/) - Sparking instant negotiations over Facebook Messenger.
+* [Sales Notifications for WooCommerce](https://wordpress.org/plugins/sales-notifications-for-woocommerce/) - Increase store trust with social proof to build credibility.
+* [WooCommerce Reviews Admin Sidebar](https://github.com/norcross/woo-reviews-admin-menu) - Adds a dedicated menu item to look at reviews.
+* [WooCommerce Max Quantity](https://wordpress.org/plugins/woocommerce-max-quantity/) -  Set a limit for the max quantity of products that can be added to cart, per product. Now with individual product limits.
+* [WooCommerce Move Reviews](https://wordpress.org/plugins/woocommerce-move-reviews/) -  Allows you to easily move reviews from one product to another.
+* [Multiple Packages for WooCommerce](https://wordpress.org/plugins/multiple-packages-for-woocommerce/) -  A simple UI to take advatage of multiple shipping packages without PHP knowledge.
+* [WooCommerce Quick View by Beeketing](https://wordpress.org/plugins/woo-quick-view-by-beeketing/) -  Show Quick View popup when customers click product images on home and collection pages. Show size guide, color swatch and review sections to increase add-to-cart rate.
+* [Square Thumbnails](https://wordpress.org/plugins/square-thumbnails/) -  Making Square Thumbnails without cropping the image. 
+* [WooCommerce Manual Payment](https://wordpress.org/plugins/woo-mp/) -  Process payments right from the backend. No need to leave the WooCommerce Edit Order screen. 
+* [WooCommerce Invoicing Payments w/ Sprout Invoices](https://wordpress.org/plugins/woo-invoicing-payments-w-sprout-invoices/) -  A Sprout Invoices payment integration with WooCommerce checkout.
+* [Quantities and Units for WooCommerce](https://wordpress.org/plugins/quantities-and-units-for-woocommerce/) -  Easily require your customers to buy a minimum / maximum / incremental amount of products to continue with their checkout.
+* [Order Hours Scheduler for WooCommerce](https://wordpress.org/plugins/order-hours-scheduler-for-woocommerce/) -  Create Custom Schedules to Automatically Enable & Disable WooCommerce Customer Checkout Functionality.
+* [SEON – Fraud Prevention](https://wordpress.org/plugins/seon-fraud/) -  SEON API Fraud.
+* [WooCommerce GDPR User Opt Ins](https://github.com/liquidweb/lw-woo-gdpr-user-optins) -  A toolset to allow WooCommerce store owners to create and manage user opt-in data.
+* [Hello Event](https://wordpress.org/plugins/hello-event/) -  Manage events and sell tickets with WooCommerce as easy as Hello World.
+* [WooCommerce Notification](https://wordpress.org/plugins/woo-notification/) -  Increase conversion rate by highlighting other customers that have bought products.
+* [Subscriptions for WooCommerce](https://wordpress.org/plugins/xa-woocommerce-subscriptions/) -  Sell products with recurring payments in your WooCommerce Store.
+* [Mail Debug for WooCommerce](https://wordpress.org/plugins/mail-debug-for-woocommerce/) -  Mail Debug for WooCommerce allows you to debug WordPress and WooCommerce emails.
+* [Conversio for WooCommerce](https://wordpress.org/plugins/receiptful-for-woocommerce/) -  Conversio is the all-in-one marketing dashboard for your WooCommerce store.
+* [Feedo](https://wordpress.org/plugins/feedo/) -  Feedo Plugin for Wordpress WooCommerce products.
+* [WooCommerce Variation Image Gallery](https://wordpress.org/plugins/woo-variation-gallery/) -  Allows to insert multiple images for per variation to let visitors to see a different images when WooCommerce product variations are switched.
+* [WooCommerce Smooth Generator](https://github.com/woocommerce/wc-smooth-generator) -  A smooth customer, order and product generator for WooCommerce.
+* [Recurring Bookings for WooCommerce](https://wordpress.org/plugins/recurring-bookings-for-woocommerce/) -  Recurring Bookings for WooCommerce - works with WooCommerce Bookings to create repeated bookings.
+* [WooCommcerce checkout product quantity change](https://wordpress.org/plugins/wc-checkout-product-quantity-change/) -  This plugin will allow user to change product quantity on checkout field. 
+* [Popup Notices for WooCommerce](https://wordpress.org/plugins/popup-notices-for-woocommerce/) -  Turn your WooCommerce Notices into Popups.
+* [Automatic Expiration for Categories](https://wordpress.org/plugins/categories-expiration-date/) -  Set an expiration date for certain categories.
+* [WooCommerce Cart Expiration](https://wordpress.org/plugins/woo-cart-expiration/) -  Set a time limit on a customer checking out.
+* [WooCommerce Stock Synchronization](https://github.com/pronamic/wp-woocommerce-stock-synchronization) -  Synchronizes stock with sites that are connected to one another, using WooCommerce Stock Synchronization.
+* [WooCommerce Interest In Products](https://wordpress.org/plugins/woo-interest-in-products/) -  Allow customers to opt-in to notices about individual products.
+* [WooCommerce Birthday Discount Vouchers](https://wordpress.org/plugins/birthday-discount-vouchers/) -  This plugin allows you to send discount vouchers to your customers on their birthday
+* [Woo Benchmark Email](https://wordpress.org/plugins/woo-benchmark-email/) -  Connects WooCommerce with Benchmark Email for syncing customers and abandoned carts.
+* [WooCommerce Shop Manager Admin Bar](https://wordpress.org/plugins/woo-shop-manager-admin-bar/) -  This plugin adds useful admin links and resources for the WooCommerce Shop Plugin to the WordPress Toolbar / Admin Bar.
+* [Repeat Order For Woocommerce](https://wordpress.org/plugins/repeat-order-for-woocommerce/) -  Add an "order again" button in Recent Orders list.
+* [WooCommerce Schedule Stock Manager](https://wordpress.org/plugins/woo-schedule-stock-manager/) -  This Plugin provide you options to manage the stock quantity automatic increase throughout daily, weekly, monthly, hourly and yearly schedule type options of all your woocommerce products.
+* [WooCommerce Ajax Login/Register](https://wordpress.org/plugins/woo-ajax-loginregister/) -  Woocommerce Ajax login/register (addon / plugin) is allows you to login and register using Ajax and add jquery validation.
+* [Cart links for WooCommerce](https://wordpress.org/plugins/soft79-cart-links-for-woocommerce/) -  Create links that will populate a cart.
+* [WooCommerce Email Order Digest](https://wordpress.org/plugins/woo-email-orders/) -  Sends out a daily digest of orders placed through WooCommerce.
+* [WooCommerce Advanced Shipment Tracking](https://wordpress.org/plugins/woo-advanced-shipment-tracking/) -  Add shipment tracking information to your WooCommerce orders and provide customers with an easy way to track their orders. Shipment tracking Info will appear in customers accounts (in the order panel) and in WooCommerce order complete email. 
+* [Smart Image Resize for WooCommerce](https://wordpress.org/plugins/smart-image-resize/) -  Prevent an image from being cutt-off to perfecly fit your website design while preserving the aspect-ratio.
+* [WooCommerce Wishlist Plugin](https://wordpress.org/plugins/ti-woocommerce-wishlist/) -  Wishlist functionality for your WooCommerce store.
+* [CartFlows](https://wordpress.org/plugins/cartflows/) -  Create beautiful checkout pages & sales flows for WooCommerce.
+* [Smaily for WooCommerce](https://wordpress.org/plugins/smaily-for-woocommerce/) -  Smaily email marketing and automation extension plugin for WooCommerce (set up opt-in form, client sync and output RSS-feed) for easy product import into template.
+* [Bolt Checkout for WooCommerce](https://wordpress.org/plugins/bolt-checkout-woocommerce/) -  Adds Bolt Checkout for WooCommerce.
+* [Nth Order Discount for WooCommerce](https://wordpress.org/plugins/nth-order-discount-for-woocommerce/) -  Automatic discounts after every nth order.
+* [WooCommerce Sales Report By Country](https://wordpress.org/plugins/woo-sales-by-country-reports/) -  This plugin simply adds a report tab to display sales report by country WooCommerce Reports. The plugin adds an additional report tab which display sales report by country. You will find this report available in WooCommerce reports section.
+* [Perfect WooCommerce Brands](https://wordpress.org/plugins/perfect-woocommerce-brands/) -  Perfect WooCommerce Brands allows you to show product brands in your WooCommerce based store.
+* [Premmerce WooCommerce Variation Swatches](https://wordpress.org/plugins/premmerce-woocommerce-variation-swatches/) -  This plugin flexibly extends standard features of the WooCommerce attributes and variations.
+* [Shipping Zones by Drawing for WooCommerce](https://wordpress.org/plugins/shipping-zones-by-drawing-for-woocommerce/) -  Define your WooCommerce shipping zones by drawing them on a map.
+* [Facebook for WooCommerce](https://wordpress.org/plugins/facebook-for-woocommerce/) -  Grow your business on Facebook! Use this official plugin to help sell more of your products using Facebook. After completing the setup, you'll be ready to create ads that promote your products and you can also create a shop section on your Page where customers can browse your products on Facebook.
+* [WooCommerce Checkout Field Manager](https://wordpress.org/plugins/n-media-woocommerce-checkout-fields/) -  Checkout Fields Manager plugin allow to manage fields on Checkout page. Billing, Shipping, Extra fields etc.
+* [WooCommerce Bulk Order](https://wordpress.org/plugins/woo-bulk-order/) -  Woocommerce Bulk Order allows your customers to order multiple products on single page.
+* [Better Reviews For WooCommerce](https://wordpress.org/plugins/better-reviews-for-woocommerce/) -  Like reviews, only way better.
+* [AutomateWoo - Subscriptions Add-on](https://github.com/Prospress/automatewoo-subscriptions/) -  Advanced actions for automating a subscription's lifecycle with AutomateWoo.
+* [Woomotiv](https://wordpress.org/plugins/woomotiv/) -  Powerful and easy to use Woocommerce Plugin that leverages social proof to increase your conversions.
+* [WooCommerce Return and Warranty Management System](https://wordpress.org/plugins/wc-return-warrranty/) -  An extension for manage return and warranty system for WooCommerce shop.
+* [Retainful – WooCommerce Abandoned Cart Recovery Emails and Next Order Coupons](https://wordpress.org/plugins/retainful-next-order-coupon-for-woocommerce/) -  Drive repeat purchases by sending single-use, unique coupon codes to customers for their next purchase.
+* [Smart Variations Images for WooCommerce](https://wordpress.org/plugins/smart-variations-images/) -  This is a WooCommerce extension plugin, that allows the user to add any number of images to the product images gallery and be used as variable product variations images in a very simple and quick way, without having to insert images p/variation.
+* [Simple Cart](https://wordpress.org/plugins/simple-cart-solution/) -  A Cart solution to provide a better user purchasing experience.
+* [Price Drop Alert for WooCommerce](https://wordpress.org/plugins/woo-price-drop-alert/) -  User will notify via email if user's selected product price get down by current price.
+* [Simple Linked Variations for WooCommerce](https://wordpress.org/plugins/simple-linked-variations-for-woocommerce/) -  An add-on plugin for WooCommerce which allows variations to be linked together, and will then toggle dropdowns on the front end based on the links made.
+* [Conditional Add To Cart for WooCommerce](https://wordpress.org/plugins/conditional-add-to-cart/) -  Conditionally disable, customize, or replace "Add to Cart" button for WooCommerce.
+* [Drip for WooCommerce](https://wordpress.org/plugins/drip/) -  A WordPress plugin to connect to Drip's WooCommerce integration.
+* [Marketing Tools for WooCommerce](https://wordpress.org/plugins/devman-marketing-tools/) -  The perfect "All in One". Discover the most complete Google Tag Manager extension on WooCommerce.
+* [Disable Dashboard for WooCommerce](https://wordpress.org/plugins/disable-dashboard-for-woocommerce/) -  Disables new WooCommerce Dashboard introduced in WooCommerce 4.0. Simply activate the plugin and disable whole Analytics section. No configuration needed.
+* [Gift Up! Gift Cards for WordPress and WooCommerce](https://wordpress.org/plugins/gift-up/) -   The simplest way to sell your own gift cards/certificates/vouchers from inside your WordPress website easily with no monthly fee. Redeemable in your WooCommerce shopping cart.
+* [Limit Orders for WooCommerce](https://wordpress.org/plugins/limit-orders/) -   Automatically disable WooCommerce's checkout process after reaching a maximum number of orders.
+* [WooCommerce Payments](https://wordpress.org/plugins/woocommerce-payments/) -   Accept payments via credit card. Manage transactions within WordPress. Beta.
+* [Leave At Door For WooCommerce](https://wordpress.org/plugins/leave-at-door-for-woocommerce/) -   Let customers request that a delivery is left at the door.
+* [HubSpot for WooCommerce](https://wordpress.org/plugins/makewebbetter-hubspot-for-woocommerce/) -   Integrate WooCommerce with HubSpots free CRM, abandoned cart tracking, email marketing, marketing automation, analytics & more.
+* [Minimum Order Amount for Checkout](https://wordpress.org/plugins/minimum-order-amount-for-checkout/) -   Set a minimum order amount for Woocommerce orders.  Shows a notice in cart and validates at checkout before order can be placed.
+* [WooCommerce Coupons by Advanced Coupons](https://wordpress.org/plugins/advanced-coupons-for-woocommerce-free/) -   Advanced Coupons for WooCommerce (Free Version) gives WooCommerce store owners extra coupon features so they can market their stores better.
+* [Platform.ly for WooCommerce](https://wordpress.org/plugins/platformly-for-woocommerce/) -   Easily connect WooCommerce to your Platformly CRM, set up abandoned cart campaigns and access detailed customer reporting: lifetime value and more.
+* [Manual Related Products for WooCommerce](https://wordpress.org/plugins/manual-related-products-for-woo/) -   Allows you to choose a manual set of products for display under the Related Products section on WooCommerce single product pages.
+* [Delete product images for WooCommerce](https://wordpress.org/plugins/wc-delete-product-images/) -   Removes product assigned images (featured and gallery only) on product delete.
+* [Checkout Manager for WooCommerce](https://wordpress.org/plugins/woocommerce-checkout-manager/) -   Manages WooCommerce Checkout, the advanced way.
+* [Woo Custom Stock Status](https://wordpress.org/plugins/woo-custom-stock-status/) -   Write the custom stock status with different colors for each woocommerce product, to show in product details and listing pages.
+* [Product image Lazy Loader for WooCommerce](https://wordpress.org/plugins/wc-products-lazy-loader/) -   This plugin lazy loads your WooCommerce product images on the shop and archive pages.
+
+## Action Scheduler
+* [Action Scheduler Timeout Monitor](https://github.com/Prospress/action-scheduler-timeout-monitor/) -  Gather additional information about subscription action scheduled events which timeout.
+* [Action Scheduler - Disable WP Cron Queue Runner](https://github.com/Prospress/action-scheduler-disable-default-runner/) -  Disable Action Scheduler's default queue runner, by removing it from the WP-Cron hook.
 
 ## WooCommerce Code Snippets
 * [Frontend Snippets](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/snippets/frontend-snippets/) -  Front-end code snippets.
 * [General Snippets](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/snippets/general-snippets/) -  General code snippets.
 * [Theming Snippets](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/snippets/snippets-theming/) -  Theming related code snippets.
-* [WooCommerce Max Quantity](https://wordpress.org/plugins/woocommerce-max-quantity/) -  Set a limit for the max quantity of products that can be added to cart, per product. Now with individual product limits.
-* [WooCommerce Move Reviews](https://wordpress.org/plugins/woocommerce-move-reviews/) -  Allows you to easily move reviews from one product to another.
-* [Multiple Packages for WooCommerce](https://wordpress.org/plugins/multiple-packages-for-woocommerce/) -  A simple UI to take advatage of multiple shipping packages without PHP knowledge.
-* [WooCommerce Quick View by Beeketing](https://wordpress.org/plugins/woo-quick-view-by-beeketing/) -  Show Quick View popup when customers click product images on home and collection pages. Show size guide, color swatch and review sections to increase add-to-cart rate.
 
 ## Gist links for WooCommerce
 * [Mike Jolley](https://gist.github.com/mikejolley)
@@ -238,6 +326,8 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [Andrew Benbow](https://gist.github.com/ChromeOrange)
 * [Kathy Darling](http://github.com/helgatheviking)
 * [Laurena Rehbein](https://gist.github.com/LaurenaRehbein)
+* [Manos Psychogyiopoulos](https://gist.github.com/franticpsyx)
+* [Gareth Harris](https://gist.github.com/plugin-republic)
 
 ## Search Plugins
 * [ElasticPress](https://wordpress.org/plugins/elasticpress/) - A fast and flexible search and query engine for WordPress.
@@ -250,9 +340,9 @@ Plugins and code snippets for your [WooCommerce](https://woocommerce.com) store.
 * [FacetWP - Bookings Integration](https://github.com/FacetWP/facetwp-bookings) - WooCommerce Bookings support.
 
 ## Google Analytics
-* [How To Track Shopping Cart Abandonment in Google Analytics](http://blog.lemonstand.com/cart-abandonment-google-analytics/) - We have all heard the statistics; about 70% of your customers are abandoning your shopping cart without actually making a purchase.
+* [Tracking Shopping Cart Abandonment in Google Analytics](https://ecommercecosmos.com/tracking-cart-abandonment-in-google-analytics/) - We have all heard the statistics; about 70% of your customers are abandoning your shopping cart without actually making a purchase.
 
 ## Performance
 * [Slow WooCommerce with Many Products](http://www.danielauener.com/slow-woocommerce-many-products/) - WooCommerce is the most used webshop system in the world and its  awesome! However, using WordPress as its application framework has some drawbacks.
 * [WooCommerce with Thousands of Products: Workarounds for Slow Admin Panel](http://www.danielauener.com/woocommerce-with-thousands-of-products-workarounds-for-slow-admin-panel/) - It’s the WordPress plugin for webshops, without a question. For a shop that is not running WooCommerce with thousands of products, it has a very nice performance, too. However there are limitations and drawbacks running WooCommerce with many products.
-
+* [WP Static Menus](https://github.com/liquidweb/wp-static-menus) - Navigation rarely changes on most WordPress sites, why dynamically regenerate it every time? This plugin will store WordPress navigation menus as static HTML, even the really large ones.
